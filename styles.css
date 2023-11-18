@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #09253d;
+    margin: 0;
+    padding: 0;
+    background-image: url('bgndimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+header {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    margin: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.container:hover {
+    transform: scale(1.05);
+}
+.profile-picture {
+    text-align: center;
+}
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #190601;
+    transition: opacity 0.3s;
+}
+.profile-picture img:hover {
+    opacity: 0.7;
+}
+.profile-details {
+    text-align: center;
+    margin-top: 20px;
+}
+.profile-details h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-details p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+.social-links a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+    font-size: 20px;
+}
+.social-links a:hover {
+    color: #007bff; /* Change color on hover */
+}
